@@ -1,0 +1,259 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    line-height: 24px;
+}
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Montserrat', sans-serif;
+}
+img{
+max-width: 100%;
+height: auto;
+}
+a{
+text-decoration: none;
+}
+a:hover{
+text-decoration: none;
+}
+.header{
+	widows: 100%;
+	background: #fff;
+}
+.navbar-brand img{
+    width: 75%;
+}
+.navbar>.container{
+        width: 1000px;
+    }
+
+.header .navbar-expand-lg .navbar-nav .nav-link i.fa.fa-search {
+    margin-left: 8px;
+    
+}
+.navbar-light .navbar-nav .nav-link {
+    color: blue;
+}
+
+.header .navbar-expand-lg .navbar-nav .nav-link{
+    margin: 20px 15px;
+    padding: 20px 0px ;
+	font-size: 16px;
+	font-weight: 1.7em;
+	text-transform: capitalize;
+	font-weight: 500;
+	transition: .8s;
+}
+.header .navbar-expand-lg .navbar-nav .nav-link:hover{
+	color: #c3c3c3;
+}
+.header .navbar-expand-lg .navbar-nav .nav-link:focus{
+	color: #c3c3c3;
+}
+.banner{
+    width: 100%;
+    background:url(../images/slider.png)center top no-repeat ;
+}
+.banner h1{
+    font-size: 4.5rem;
+    font-weight: 500;
+    color: #fff;
+    padding: 291px;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: capitalize;
+}
+.inner-banner .col-lg-7{
+    padding: 48px 59px 0px 62px
+}
+.inner-banner .col-lg-5{
+    padding: 0px 20px 20px 40px;
+}
+.what-we-do{
+    width: 100%;
+    background:url(../images/Lawyer2.png)center top no-repeat;
+    height: 700px;
+    object-fit: cover;
+}
+.what-we-do .inner-section {
+    padding-top: 60px;
+}
+.col-lg-12 {
+    padding: 43px 0px;
+    text-align: center;
+}
+.col-lg-12 h4 {
+    width: 100%;
+    font-size: 38px;
+    font-weight: 600;
+    color: blue;
+}
+.what-we-do img.card-img {
+    width: 100%;
+    height: 420px;
+    object-fit: cover;
+}
+h5.card-title {
+    margin-top: 110px;
+    margin-bottom: 140px;
+    height: 40px;
+    text-align: center;
+    font-size: 30px;
+
+}
+.fa-long-arrow-right::before {
+    padding: 176px;
+    font-size: 35px;
+}
+.our-attorneys{
+    width: 100%;
+    background:url(../images/bg2.png)center top no-repeat;
+    padding: 40px 0;
+}
+.row.boxx{
+    display: flex;
+    align-items: center;
+}
+.form-control {
+    max-width: 450px;
+    margin: 0 auto;
+}
+button.btn.btn-danger {
+    margin: 0 auto;
+    display: block;
+    
+}
+.contact-us form {
+    margin-bottom: 45px;
+}
+
+.our-attorneys h5.card-title {
+    margin-top: 198px;
+    font-size: 16px;
+    font-weight: 500;
+    color: #fff;
+    margin-right: 134px;
+    text-transform: uppercase;
+}
+h6.esq {
+    margin-top: -148px;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+.our-attorneys .col-lg-12 {
+    flex: 0 0 auto;
+    width: 100%;
+}
+.our-attorneys h3 {
+    font-size: 30px;
+    font-weight: 700;
+    color: #fff;
+}
+.our-attorneys p {
+    font-size: 16px;
+    color: #fff;
+    font-weight: 100;
+}
+.our-attorneys button.btn.btn-link {
+    color: #f2622c;
+}
+.languages h4 {
+    text-transform: uppercase;
+}
+.languages h5 {
+    font-size: 20px;
+    font-weight: 700;
+    color: blue;
+    text-transform: uppercase;
+}
+.languages p {
+    font-size: 13px;
+    font-weight: 100;
+    color: #bebebe;
+}
+.languages button.btn.btn-link {
+    color: #f2622c;
+    font-size: 14px;
+    padding: 0px;
+    font-weight: 800;
+}
+section.languages {
+    padding-bottom: 119px;
+}
+.contact-us .col-lg-12 {
+    padding: 60px 0;
+}
+.contact-us .container{
+    width: 100%;
+    background: url(../images/bg2.png)center top no-repeat;
+}
+.contact-us .form-control::placeholder{
+    color: #dee2e6;
+}
+.contact-us .col-lg-12 h4 {
+    width: 100%;
+    font-size: 38px;
+    font-weight: 600;
+    color: #fff;
+}
+.contact-us .form-control:focus {
+    color: #dee2e6;
+    background-color: transparent;
+    border-color: #dee2e6;
+    outline: 0;
+    box-shadow: unset;
+}
+.contact-us .form-control{
+background-color: transparent;
+color: #dee2e6;
+}
+.contact-us button.btn.btn-danger {
+    margin-top: 40px;
+    background: transparent;
+    border: 1px solid #dee2e6;
+    font-size: 16px;
+    padding: 10px 35px;
+    font-weight: 500;
+}
+.contact-us button.btn.btn-danger:hover{
+    background: #fff;
+    color: #f2622c;
+    transition: 0.3s;
+}
+
+.form-group.col-md-12 {
+    margin-bottom: 13px;
+}
+.footer{
+    background: #0c1234;
+}
+.copyright {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 11px;
+    color: #b1b7dd;
+    text-transform: uppercase;
+    padding: 26px 188px;
+}
+.social-icons {
+    width: 100%;
+    padding: 15px;
+    text-align: right;
+    font-size: 25px;
+}
+.social-icons li{
+	list-style: none;
+	display: inline-block;
+}
+.social-icons li a{
+	text-align: center;
+	display: block;
+	width: 40px;
+	height: 40px;
+	line-height: 40px;
+    color: #b1b7dd;
+	font-size: 22px;
+}
